@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="img2 h3">
+        <h1><I><center>Create Your Account</center></I></h1>
+        <form method="get">
+            <fieldset>
+                <legend> Application Form</legend>
+           
+           <label for="fname">First Name:</label>
+           <input type="text" id="fname" name="myname" placeholder="First Name" pattern="[A-Za-z]*" required><br><br>  
+
+           <label for="lname">Last Name:</label>
+           <input type="text" id="lname" name="myname" placeholder="Last Name" pattern="[A-Za-z]*" required><br><br>
+            
+           <label for="userid">Create User-Id</label>
+           <input type="text" id="userid" name="myname" placeholder="user1234" pattern="[A-Za-z0-9]*" required><br><br>
+        
+           <label for="phno">Mobile no:</label>
+           <input type="tel" id="phno" name="mobileno" minlength="10" maxlength="10" pattern="[0-9]{9}{8}" required><br><br>
+           
+           <label for="e-mail">Mail:</label>
+           <input type="email" id="e-mail" name="mailid" required><br><br>
+
+           <label for="age">Age:</label> 
+           <input type="number" name="age" required/><br><br>
+
+           <label for="newpass">Password:</label>
+           <input type="password" id="newpass" name="pswd" placeholder="password" minlength="4" maxlength="9" pattern="[A-Za-z0-9]*" required><br><br>
+
+           <label for="cpass">Confirm Password:</label>
+           <input type="password" id="cpass" name="pswd" placeholder="confirm password" required><br><br>
+           
+           <input type="submit" value="Submit"/>
+           <input type="reset" value="Reset"/>
+
+           
+           </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
